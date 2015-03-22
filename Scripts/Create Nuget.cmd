@@ -1,0 +1,1 @@
+..\.nuget\NuGet.exe pack ..\Log4NetTableStorageAppender\Log4NetTableStorageAppender.csproj -Prop Configuration=Release

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4NetTableStorageAppender", "Log4NetTableStorageAppender\Log4NetTableStorageAppender.csproj", "{A7801FDA-0E4B-49C4-984F-2CECF200D48E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogApplication", "LogApplication\LogApplication.csproj", "{A7748439-A1FE-4089-946D-53E04B0532CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{42D2A9E0-8248-42EA-BA62-93034E53AA04}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\Create Nuget.cmd = Scripts\Create Nuget.cmd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7611A83D-9836-4EEC-8E11-6C23CDD69683}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7801FDA-0E4B-49C4-984F-2CECF200D48E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7801FDA-0E4B-49C4-984F-2CECF200D48E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7801FDA-0E4B-49C4-984F-2CECF200D48E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7801FDA-0E4B-49C4-984F-2CECF200D48E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7748439-A1FE-4089-946D-53E04B0532CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7748439-A1FE-4089-946D-53E04B0532CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7748439-A1FE-4089-946D-53E04B0532CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7748439-A1FE-4089-946D-53E04B0532CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
