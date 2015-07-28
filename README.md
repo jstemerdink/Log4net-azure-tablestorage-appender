@@ -17,6 +17,7 @@ Log4net azure table storage appender is a log4net appender to write the logs to 
 * A azure runbook used by azure automation to cleanup the table storage table.
 
 ## Examples
+```
 <appender name="TableStorageLogAppender" type="Log4NetTableStorageAppender.AzureTableStorageAppender, Log4NetTableStorageAppender">      
   <bufferSize value="100" />
   <ConnectionStringName value="StorageConnectionString" />
@@ -24,3 +25,4 @@ Log4net azure table storage appender is a log4net appender to write the logs to 
     <conversionPattern value="%-5p %d %5rms %-22.22c{1} %-18.18M - %m%n" />
   </layout>
 </appender>
+```
