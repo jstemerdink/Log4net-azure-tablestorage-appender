@@ -11,7 +11,7 @@ Append the following section to your log4net configuration:
 </appender>
 ```
 
-You can customize the tablename the logger uses by setting the "AzureTableStorageAppender.TableName" setting in your AppSettings. If not set the logger will use the "log4Net" table. 
+You can customize the tablename the logger uses by configuring the "AzureTableStorageAppender.TableName" setting in your AppSettings. If not set the logger will use the "Log4net" table. 
 ```
 <appSettings>
   <add key="AzureTableStorageAppender.TableName" value="MyCustomTableName" />
