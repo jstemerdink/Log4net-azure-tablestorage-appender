@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.RetryPolicies;
@@ -15,10 +16,12 @@ namespace Log4NetTableStorageAppender.Models
         {
             var cloudStorageAccount = CloudStorageAccount.Parse(connectionString);
             var tableClient = cloudStorageAccount.CreateCloudTableClient();
+
+            var tableName = ConfigurationManager.AppSettings["AzureTableStorageAppender.TableName"];
+            if (string.IsNullOrWhiteSpace(tableName)) tableName = "Log4net";
             
-            _tableClient = tableClient.GetTableReference("Log4net");
+            _tableClient = tableClient.GetTableReference(tableName);
             _tableClient.CreateIfNotExists();
-            
         }
 
         public void Add(IEnumerable<T> obj)
