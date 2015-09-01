@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/mvdqnvklcal82tkq?svg=true)](https://ci.appveyor.com/project/marcoippel/log4net-azure-tablestorage-appender)
+
 Seleniumtest template
 ==============
 
