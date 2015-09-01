@@ -6,9 +6,16 @@
     <authors>$author$</authors>
     <owners>$author$</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <title>Log4net Azure tablestorage provider</title>
     <description>$description$</description>
+    <summary>Write your log enties to a log4net tabestorage table. The project includes also a script for azure automation to cleanup the tablestorage</summary>
+    <tags>Selenium, azure tablestorage, log4net</tags>
     <copyright>Copyright 2015</copyright>
     <projectUrl>https://github.com/marcoippel/Log4netTableStorageAppender</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/marcoippel/Log4net-azure-tablestorage-appender/develop/Nuget.png</iconUrl>
+    <releaseNotes>
+      1.0.0.1 Table name can be managed in config.
+    </releaseNotes>
     <dependencies>
         <group targetFramework="net40">
           <dependency id="log4net" version="1.2.10" />
@@ -16,6 +23,5 @@
         </group>
     </dependencies>
     <references></references>
-    <tags></tags>
   </metadata>
 </package>
