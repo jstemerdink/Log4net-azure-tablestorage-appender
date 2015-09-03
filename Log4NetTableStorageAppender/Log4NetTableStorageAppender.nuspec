@@ -15,6 +15,7 @@
     <iconUrl>https://raw.githubusercontent.com/marcoippel/Log4net-azure-tablestorage-appender/develop/Nuget.png</iconUrl>
     <releaseNotes>
       1.0.0.1 Table name can be managed in config.
+      1.0.0.2 Recompiled with log4net version 1.2.10
     </releaseNotes>
     <dependencies>
         <group targetFramework="net40">
