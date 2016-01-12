@@ -16,11 +16,12 @@
     <releaseNotes>
       1.0.0.1 Table name can be managed in config.
       1.0.0.2 Recompiled with log4net version 1.2.10
+      2.0.0.0 Recompiled with log4net version 2.0.3
     </releaseNotes>
     <dependencies>
         <group targetFramework="net40">
-          <dependency id="log4net" version="1.2.10" />
-          <dependency id="WindowsAzure.Storage" version="4.1.0" />
+          <dependency id="log4net" version="2.0.3" />
+          <dependency id="WindowsAzure.Storage" version="6.1.0" />
         </group>
     </dependencies>
     <references></references>
